@@ -31,7 +31,7 @@ def vigenere_cipher(text, password):
 		current_key = list_of_keys[index % len(list_of_keys)]
 
 		crypted_text.append(cesar_cipher(char, current_key))
-		
+
 	return crypted_text
 
 
@@ -56,14 +56,13 @@ def vigenere_cipher(text, password):
 
 
 
-if __name__ == "__main__":
-# 	message = "le chocolat est bon"
+# if __name__ == "__main__":
+# # 	message = "le chocolat est bon"
 
-# 	crypted_text = cesar_cipher(message, 12) # exo 1
-# 	print(crypted_text)
+# # 	crypted_text = cesar_cipher(message, 12) # exo 1
+# # 	print(crypted_text)
 
-# 	initial_message = cesar_uncipher(crypted_text, 12) # exo 2
-# 	print(initial_message == message)
+# # 	initial_message = cesar_uncipher(crypted_text, 12) # exo 2
+# # 	print(initial_message == message)
 
-# 	hack_cesar_cipher(crypted_text, alphabet=string.printable) # exo3
-
+# # 	hack_cesar_cipher(crypted_text, alphabet=string.printable) # exo3
